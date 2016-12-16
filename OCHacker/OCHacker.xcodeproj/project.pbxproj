@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FE08E4B41DFEC931003B3C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE08E4B31DFEC931003B3C2A /* main.m */; };
 		FE08E4BC1DFECB9E003B3C2A /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FE08E4BB1DFECB9E003B3C2A /* EOCAutoDictionary.m */; };
+		FECCD0A81E00D1D20085A67B /* RuntimeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FECCD0A71E00D1D20085A67B /* RuntimeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		FE08E4B31DFEC931003B3C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE08E4BA1DFECB9E003B3C2A /* EOCAutoDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCAutoDictionary.h; sourceTree = "<group>"; };
 		FE08E4BB1DFECB9E003B3C2A /* EOCAutoDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCAutoDictionary.m; sourceTree = "<group>"; };
+		FECCD0A61E00D1D20085A67B /* RuntimeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeClass.h; sourceTree = "<group>"; };
+		FECCD0A71E00D1D20085A67B /* RuntimeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				FE08E4B31DFEC931003B3C2A /* main.m */,
 				FE08E4BA1DFECB9E003B3C2A /* EOCAutoDictionary.h */,
 				FE08E4BB1DFECB9E003B3C2A /* EOCAutoDictionary.m */,
+				FECCD0A61E00D1D20085A67B /* RuntimeClass.h */,
+				FECCD0A71E00D1D20085A67B /* RuntimeClass.m */,
 			);
 			path = OCHacker;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			files = (
 				FE08E4BC1DFECB9E003B3C2A /* EOCAutoDictionary.m in Sources */,
 				FE08E4B41DFEC931003B3C2A /* main.m in Sources */,
+				FECCD0A81E00D1D20085A67B /* RuntimeClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +258,7 @@
 				FE08E4B91DFEC931003B3C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
