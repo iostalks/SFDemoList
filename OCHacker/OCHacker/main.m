@@ -9,15 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "EOCAutoDictionary.h"
 #import "RuntimeClass.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 
         EOCAutoDictionary *dict = [EOCAutoDictionary new];
         [dict setString:@"string"];
 //        NSLog(@"%@", dict.string);
-        
-        RuntimeClass *cls = [RuntimeClass new];
-        
+
     }
     return 0;
 }

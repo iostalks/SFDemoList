@@ -17,6 +17,8 @@ struct objc_selector_ {
     // objc_selector 的实现是不透明的。
 };
 typedef struct objc_selector_ *SEL;
+// @selector(setString:);
+// sel_registerName("setString:");
 
 /// id
 struct objc_object_ {
@@ -113,20 +115,15 @@ typedef struct objc_property *objc_property_t;
 //setter = (void (*)(id , SEL, BOOL))[target methodForSelector:@selector(SetA:)];
 //setter(target, @selector(SetA:), YES);
 
-@implementation RuntimeClass {
+// class 方法只是返回当前类的类别
 
+@implementation RuntimeClass {
 }
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        Class cls = [super class];
-        Class superCls = [self superclass];
-        [cls class];
-        
         [self methodForSelector:@selector(init)];
-        
-
     }
     return self;
 }
